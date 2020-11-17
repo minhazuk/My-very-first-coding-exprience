@@ -1,0 +1,23 @@
+function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(55, );
+  
+  fill(242, 242, 240,)
+  circle(200, 150, 200,);
+  
+  fill(5, 5,5,)
+  circle(200, 50, 180,);
+  
+  circle(100, 120, 100,);
+  circle(300, 120, 100);
+  
+  fill(237, 5, 12,)
+  circle(150, 180, 12);
+  circle(250, 180, 12)
+  
+  fill(200, 500, 60,)
+  rect(180, 210, 50, 8,)
+}
