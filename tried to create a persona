@@ -1,0 +1,77 @@
+function setup() {
+  createCanvas(600, 500);
+}
+
+function draw() {
+  background(55);
+  
+   //nack
+  noStroke()
+  fill(245, 180, 108)
+  rect(79, 180, 50, 40)
+  
+  
+  
+  //face
+  fill(245, 180, 108,)
+  circle(100, 120, 150,);
+  
+  //hair
+  fill(191, 86, 0)
+  circle(100, 10, 180,);
+  circle(30, 60, 100,);
+  circle(190, 70, 100);
+  //arc(240, 180, 200, 200, PI+PI*.25, PI+PI*.5)
+  rect(165,90,65);
+    rect (0,90,50);
+    
+  //eye
+  fill(5,)
+  circle(70, 120, 12);
+  circle(130, 120, 12)
+  circle(70, 120, 6,)
+ 
+  //Mouth
+  fill(255, 102, 102);
+  arc(100, 155, 49, 35, 0, PI);
+  
+  
+  //eyebrow
+  stroke(5)
+  noFill()
+  arc(70, 120, 45, 30, PI, PI+PI)
+  arc(130, 120, 45, 30, PI, PI+PI)
+  
+ 
+  //body
+  fill(211,245, 245,)
+  noStroke()
+  arc(100, 300, 300, 200, PI, PI+PI )
+  
+
+  textSize(40)
+  text('Lisa', 300, 70);
+  textSize(20)
+  text('software engineer', 300, 95,)
+  
+  //under the picture 
+  text('Age -- 30',50, 350)
+   text('Location - Manchester', 50, 380)
+   text('Background - British', 50, 410,)
+   text('Education level - A Levels', 50, 440,)
+
+  
+  //under the name
+  text('Likes:-Swimming, Networking, ', 300, 130,)
+  text('Meeting new people,', 360, 155,)
+  text('Coding,', 360, 180,)
+  text('Dislikes:-Manchester weather,', 300, 220,)
+  text('Covid-19/ lockdown.', 380, 245)
+  
+  text('Goals:- Create a long lasting ', 300, 290,)
+  text('future in tech,', 375, 310,)
+  text('Build something meaningful,', 330, 345,)
+  text('Influence the younger generation', 300, 380,)
+  text('into tech.', 400, 415,)
+  
+}
